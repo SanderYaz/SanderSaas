@@ -1,0 +1,284 @@
+@charset "UTF-8";
+/*------------------------------------------------------------------------------------
+Theme Name: staco
+Theme URL: #
+Author: uigigs
+Author URL: https://themeforest.net/user/uigigs/portfolio
+version: 1.0.0
+------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------
+CSS table of content
+
+01. Settings style
+02. Base style
+03. Sections style
+04. Components style
+05. Utilities style
+------------------------------------------------------------------------------------*/
+
+/*--------------------------------
+01. Settings style
+--------------------------------*/ 
+@import 'variables';
+
+/*--------------------------------
+02. Base style
+--------------------------------*/
+@import 'reset.all';
+@import 'helper.theme';
+
+/*--------------------------------
+03. Sections style
+--------------------------------*/
+@import 'header';
+@import 'top-header';
+@import 'canvasMenu';
+@import 'nft-header';
+@import 'mega-menu';
+
+@import 'hero';
+@import 'hero3';
+@import 'hero4';
+@import 'hero5';
+@import 'hero6';
+@import 'hero7';
+@import 'chatbot';
+@import 'newslater';
+@import 'marketplace';
+@import 'item-details';
+@import 'app-landing';
+@import 'crypto-wallet';
+@import 'coroprate';
+@import 'crypto-wallet2';
+@import 'crypto-token';
+@import 'sass-landing';
+@import 'defi';
+
+@import 'footer';
+@import 'footer6';
+@import 'footerV7';
+@import 'chatbot-footer';
+@import 'nft-footer';
+@import 'token-footer';
+@import 'defi-footer';
+
+// @import './sections/headline/headline';
+
+/*-- home page 1 style start --*/
+@import 'brands';
+@import 'feature';
+@import 'usability';
+@import 'marketing';
+@import 'testimonial';
+@import 'integrate';
+@import 'faq';
+@import 'pricing';
+/*-- home page 1 style end --*/
+
+/*-- home page 2 style start --*/
+@import 'feature2';
+@import 'businessTools';
+@import 'statistics';
+@import 'chooseUs';
+@import 'comparePricing';
+@import 'integrate2';
+/*-- home page 2 style start --*/
+
+/*-- home page 3 style start --*/
+@import 'mainFeature';
+@import 'usefulFeature';
+@import 'counter';
+@import 'virtually';
+@import 'bestPricing';
+@import 'meetingAnytime';
+/*-- home page 3 style end --*/
+
+/*-- home page 4 style start --*/
+@import 'howWorks';
+@import 'whyChoose';
+@import 'rating';
+@import 'testimonial';
+@import 'faq';
+@import 'building';
+/*-- home page 4 style end --*/
+
+/*-- home page 5 style start --*/
+@import 'chose-us';
+@import 'powerfull-template';
+@import 'happy-customers';
+/*-- home page 5 style end --*/
+
+/*-- home page 7 style start --*/
+@import 'portfolioGallery';
+/*-- home page 7 style end --*/
+
+/*-- home page 8 style start --*/
+@import 'home8-banner';
+@import 'dsesign-system';
+@import 'accounting';
+@import 'we-offering';
+/*-- home page 8 style end --*/
+
+/*-- chatbot style start --*/
+@import 'chatbot-customers-suport';
+@import 'chatbot-why-choose';
+@import 'chatbot-best-pricing';
+@import 'convert-visitors';
+@import 'chatbot-testmonial';
+/*-- chatbot style End --*/
+
+/*-- Newslater style start --*/
+@import 'leading-email';
+@import 'newsleter-features';
+@import 'powerful-email';
+@import 'newsletter-testmonial';
+/*-- Newslater style End --*/
+
+/*-- Marketplace style start --*/
+@import 'hot-collections';
+@import 'live-auctions';
+@import 'top-artists';
+@import 'discover-nfts';
+@import 'categories';
+@import 'explore-creators';
+@import 'creators-details';
+/*-- Marketplace style End --*/
+
+/*-- App Landing Page style Start --*/
+@import 'useful-features';
+@import 'chose-us';
+@import 'testimonial';
+@import 'app-benefits';
+@import 'stay-connect';
+@import 'convert-visitors';
+
+/*-- App Landing Page style End --*/
+
+/*-- Crypto Wallet style Start --*/
+@import 'crypto-features';
+@import 'manage-asset';
+@import 'blockchain-defi';
+@import 'cross-platform';
+@import 'super-secure';
+@import 'feedbacks';
+@import 'download-wallet';
+@import 'download-wallet';
+/*-- Crypto Wallet style End --*/
+
+/*-- Crypto Wallet 2 style start --*/
+@import 'crypto-assets';
+@import 'cross-network';
+@import 'benefits';
+@import 'connect-dapps';
+@import 'safe-platform';
+@import 'crypto2-download-wallet';
+@import 'partners';
+@import 'support';
+/*-- Crypto Wallet 2 style end --*/
+
+/*-- Crypto token style start --*/
+@import 'key-points';
+@import 'features';
+@import 'crypto-token-tag';
+@import 'partners';
+@import 'scroll-text';
+@import 'tokenomics';
+@import 'latest-news';
+@import 'documents';
+@import 'social';
+
+/*-- Crypto token style end --*/
+
+/*-- corporate index style start --*/
+@import 'best-services';
+@import 'about-company';
+@import 'how-it-work';
+@import 'our-values';
+@import 'corporate-testiminials';
+@import 'consultation';
+@import 'corporate-footer';
+/*-- corporate index style end --*/
+
+/*-- sass landing page start --*/
+@import 'top-notch-features';
+@import 'choose-us';
+@import 'sass-video';
+@import 'seamless-solutions';
+@import 'community';
+/*-- sass landing page end --*/
+
+/*-- Defi landing page start --*/
+@import 'defi-safe-platform';
+@import 'defi-metaverse';
+@import 'ecosystem';
+@import 'backed';
+@import 'latest-articles';
+@import 'get-updates';
+/*-- Defi landing page End --*/
+ 
+/*-- about-us page style start --*/
+@import 'customer';
+@import 'aboutFeature';
+@import 'team';
+@import 'building';
+/*-- about-us page style end --*/
+
+/*-- service page style start --*/
+@import 'service';
+@import 'skills';
+@import 'coreFeature';
+/*-- service page style end --*/
+
+/*-- Pricing Plan style start --*/
+@import 'pricing-plan';
+@import 'compare-plans';
+/*-- Pricing Plan style end --*/
+
+/*-- contact-us page style start --*/
+@import 'contact';
+/*-- contact-us page style end --*/
+
+/*-- Letest Blog style start --*/
+@import 'letest-blog';
+/*-- Letest Blog style end --*/
+
+/*-- blog details style start --*/
+@import 'blog-details';
+@import 'comment';
+/*-- blog details style end --*/
+
+/*-- auth-and-utility style start --*/
+@import 'auth';
+@import 'terms-of-services';
+/*-- auth-and-utility style end --*/
+
+
+/*--------------------------------
+04. Components style
+--------------------------------*/
+@import 'buttons';
+@import 'badge';
+@import 'breadcrumb';
+@import 'form';
+@import 'pagination';
+@import 'case-studies';
+@import 'developer-apis';
+@import 'ultimate-features';
+@import 'portfolio';
+@import 'footer-testimonial';
+@import 'manage-team';
+@import 'index6-card-section';
+@import 'section-title';
+@import 'lets-talk';
+@import 'benefits';
+@import 'customers-quote';
+@import 'blog-post';
+@import 'disclaimer';
+@import 'scrollTop';
+@import 'modals';
+@import 'select-language';
+
+/*--------------------------------
+05. Utilities style
+--------------------------------*/
+@import 'utilites';
